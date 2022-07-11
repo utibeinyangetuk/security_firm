@@ -35,7 +35,6 @@
 }
 
 .body1 {
-	background-color: rgba(0, 128, 128, 0.095);
 	height: 70vh;
 	display: flex;
 	justify-content: center;
@@ -130,7 +129,8 @@
 	font-size: 30px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	margin: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .reviews .box {
@@ -161,7 +161,7 @@ footer h1 {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-   text-decoration: underline;
+	text-decoration: underline;
 }
 
 .cover {
@@ -173,8 +173,13 @@ footer h1 {
 	letter-spacing: 1.2px;
 	line-height: 20px;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 	margin-bottom: 25px;
+	color: gray;
+}
+.content ul li span {
+	color: #000;
+	font-size: 20px;
 }
 .container {
 	display: flex;
@@ -186,13 +191,11 @@ footer h1 {
 }
 .container input::placeholder {
 	text-transform: capitalize;
-   letter-spacing: 2px;
-
+	letter-spacing: 2px;
 }
 .container textarea::placeholder {
 	text-transform: capitalize;
-   letter-spacing: 2px;
-
+	letter-spacing: 2px;
 }
 .container textarea {
 	padding: 10px;
@@ -201,15 +204,76 @@ footer h1 {
 .container button {
 	padding: 10px;
 }
-.container button{
-   letter-spacing: 2px;font-size: 15px;font-weight: bold;
+.container button {
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
 }
-.quickLinks h3{
-text-transform: uppercase;
-font-weight: bold;font-size: 18px;letter-spacing: 1.5px;
+.quickLinks h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-decoration: underline;
 }
 
-.quickLinks ul li{
-   text-transform: capitalize;
-   margin-top: 20px;cursor: pointer;letter-spacing: 1.3px;font-weight: bold;
+.quickLinks ul li {
+	text-transform: capitalize;
+	margin-top: 20px;
+	cursor: pointer;
+	letter-spacing: 1.3px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.quickLinks ul li:hover {
+	text-decoration: underline;
+}
+.single-review {
+	text-align: center;
+	padding: 10px;
+}
+.single-review p {
+	color: gray;
+	line-height: 25px;
+	letter-spacing: 1.6px;
+}
+
+.body3 {
+	min-height: 60vh;
+	border-top: 1px solid rgba(0, 0, 0, 0.215);
+	margin-bottom: 20px;
+}
+.body3 h1 {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+.boxing {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.services {
+	width: 290px;
+	height: 200px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+}
+.services:hover {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.215);
+}
+
+.services h2 {
+	align-items: center;
+   text-transform: uppercase;
+   margin-top: 25%;
 }
