@@ -25,7 +25,7 @@
 
 .navbar ul li {
 	margin-right: 50px;
-	border: 1px solid #ccc;
+	border: 1px solid rgba(204, 204, 204, 0.296);
 	padding: 10px;
 	border-radius: 5px;
 	letter-spacing: 2px;
@@ -37,11 +37,24 @@
 .body1 {
 	height: 70vh;
 	display: flex;
+	flex-direction: column;
+	text-align: center;
 	justify-content: center;
+	background: rgba(0, 178, 178, 0.088);
+}
+
+.body1 span {
+	margin-top: 10px;
+	letter-spacing: 5px;
+	font-size: 100px;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke-width: 10px;
+	-webkit-text-stroke-color: black;
 }
 
 .body1 h1 {
-	margin-top: 100px;
+	margin-top: 20px;
 	letter-spacing: 3px;
 	font-size: 70px;
 	text-transform: uppercase;
@@ -160,8 +173,7 @@ footer h1 {
 	margin-top: 20px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	margin-bottom: 10px;
-	text-decoration: underline;
+	margin-bottom: 40px;
 }
 
 .cover {
@@ -251,7 +263,6 @@ footer h1 {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	text-decoration: underline;
 }
 .boxing {
 	display: flex;
@@ -274,6 +285,6 @@ footer h1 {
 
 .services h2 {
 	align-items: center;
-   text-transform: uppercase;
-   margin-top: 25%;
+	text-transform: uppercase;
+	margin-top: 25%;
 }
