@@ -5,14 +5,16 @@
 	text-decoration: none;
 	list-style: none;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 .navbar {
 	display: flex;
 	align-items: center;
-	padding: 15px;
+	padding: 8px;
 	justify-content: space-between;
-	background-color: #d04f29;
+	background-color: #fbfbfbb5;
+	border-bottom: 1px solid #ccc;
 }
 
 .navbar h2 {
@@ -38,7 +40,7 @@
 }
 
 .navbar .links a:hover {
-	background-color: #000;
+	background-color: #807668;
 	color: #fff;
 	border-radius: 5px;
 }
@@ -49,19 +51,20 @@
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
-	background: #d04f29;
+	background: #fbfbfbb5;
 }
 
 .body1 span {
 	margin-top: 10px;
 	font-size: 100px;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828,
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.672), 0 1px 0, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828,
 		0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e,
 		0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-		0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
-	color: #e0dfdc;
+		0 15px 0 #121212;
+	color: #807668;
 }
 
 .body1 h1 {
@@ -83,7 +86,7 @@
 .about-us {
 	width: 100%;
 	height: 485px;
-	background-color: #2f4f4f;
+	background-color: #c9a365;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -91,7 +94,7 @@
 }
 
 .about-us h1 {
-	color: #fff;
+	color: #000;
 	font-size: 45px;
 	font-weight: 900;
 	margin-top: 10px;
@@ -107,13 +110,13 @@
 	font-weight: bold;
 	line-height: 40px;
 	letter-spacing: 1.3px;
-	color: rgba(255, 255, 255, 0.726);
+	color: rgba(0, 0, 0, 0.71);
 }
 
 .mission {
 	width: 100%;
 	height: 485px;
-	background-color: #d04f29;
+	background-color: #3d2919;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -128,6 +131,7 @@
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 10px;
+	color: #fff;
 }
 
 .mission p {
@@ -136,13 +140,13 @@
 	font-weight: bold;
 	line-height: 40px;
 	letter-spacing: 1.3px;
-	color: rgba(0, 0, 0, 0.493);
+	color: rgba(255, 255, 255, 0.493);
 }
 
 .body3 {
 	min-height: 60vh;
 	margin-bottom: 0px;
-	background-color: #2f4f4f;
+	background-color: #3d2919;
 }
 
 .body3 h1 {
@@ -176,7 +180,7 @@
 }
 
 .services:hover {
-	box-shadow: 0 2px 8px #fff;
+	box-shadow: 0 2px 8px #000;
 }
 
 .services h2 {
@@ -192,7 +196,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #d04f29;
+	background-color: #c9a365;
 }
 
 .reviews h1 {
@@ -239,7 +243,7 @@
 footer {
 	min-height: 60vh;
 	border-top: 1px solid rgba(0, 0, 0, 0.159);
-	background-color: #2f4f4f;
+	background-color: #3d2919;
 }
 
 footer h1 {
