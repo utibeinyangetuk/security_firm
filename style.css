@@ -20,7 +20,6 @@
 .navbar img {
 	width: 100px;
 	height: 100px;
-
 }
 
 .navbar .links {
@@ -61,10 +60,10 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.672), 0 1px 0, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828,
-		0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e,
-		0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-		0 15px 0 #121212;
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.672), 0 1px 0, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+		0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020,
+		0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616,
+		0 14px 0 #141414, 0 15px 0 #121212;
 	color: #807668;
 }
 
@@ -259,7 +258,7 @@
 }
 
 .cert-content ul li {
-	list-style: decimal;
+	list-style: circle;
 	margin-left: 40px;
 	letter-spacing: 1.2px;
 	line-height: 30px;
@@ -306,6 +305,25 @@ footer h1 {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 15px;
+}
+
+.socials {
+	margin-top: 7rem;
+}
+
+.socials h2 {
+	font-size: 25px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.socials i {
+	font-size: 35px;
+	cursor: pointer;
+	margin-right: 20px;
 }
 
 .container {
@@ -369,12 +387,13 @@ footer h1 {
 .quickLinks h3 {
 	text-transform: uppercase;
 	font-weight: 900;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 1.5px;
 	color: #fff;
 }
 
-.quickLinks ul li {
+.links-footer a {
+	display: flex;
 	text-transform: capitalize;
 	margin-top: 20px;
 	cursor: pointer;
@@ -384,7 +403,12 @@ footer h1 {
 	color: #ccc;
 }
 
-.quickLinks ul li:hover {
+.links-footer a:hover {
 	text-decoration: underline;
-	color: #d04f29;
+}
+
+.copyright-text {
+	margin-top: 60px;
+	font-size: 20px;
+	font-weight: bold;
 }
