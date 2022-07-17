@@ -11,15 +11,17 @@
 .navbar {
 	display: flex;
 	align-items: center;
-	padding: 8px;
+	/* padding: 2px; */
+	height: 70px;
 	justify-content: space-between;
-	background-color: #fbfbfbb5;
+	background-color: #fff;
 	border-bottom: 1px solid #ccc;
 }
 
-.navbar h2 {
-	text-transform: uppercase;
-	margin-left: 50px;
+.navbar img {
+	width: 100px;
+	height: 100px;
+
 }
 
 .navbar .links {
