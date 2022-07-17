@@ -11,11 +11,10 @@
 .navbar {
 	display: flex;
 	align-items: center;
-	/* padding: 2px; */
 	height: 70px;
 	justify-content: space-between;
 	background-color: #fff;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.39);
 }
 
 .navbar img {
@@ -53,7 +52,7 @@
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
-	background: #fbfbfbb5;
+	background: #fff;
 }
 
 .body1 span {
@@ -192,54 +191,81 @@
 	color: rgba(255, 255, 255, 0.782);
 }
 
-.reviews {
-	min-height: 70vh;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.clients {
+	min-height: 40vh;
 	background-color: #c9a365;
 }
 
-.reviews h1 {
+.clients h1 {
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	font-size: 40px;
 	font-weight: 900;
-	margin-top: 70px;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	text-align: center;
 	margin-bottom: 40px;
 }
 
-.reviews .box {
+.clients ul {
 	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-left: 30px;
 }
 
-.single-review {
-	text-align: center;
-	padding: 10px;
-	width: 400px;
-	height: 500px;
-	margin-left: 10px;
-	margin-bottom: 20px;
-	border-radius: 5px;
-	border: 1px solid rgba(0, 0, 0, 0.545);
+.clients ul li {
+	min-width: 400px;
+	margin-bottom: 40px;
+	list-style: circle;
+	letter-spacing: 1.2px;
+	font-size: 17px;
+	text-transform: capitalize;
+	font-weight: 600;
 }
 
-.single-review h2 {
-	font-size: 30px;
-	font-weight: 900;
-	margin-top: 40px;
-	letter-spacing: 3px;
+.certificates {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.certificates h1 {
+
+	letter-spacing: 2px;
 	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 10px;
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 20px;
 }
 
-.single-review p {
-	color: #000;
-	line-height: 25px;
-	letter-spacing: 1.6px;
+.cert-content {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cert-content h3 {
+	width: 600px;
+	text-align: left;
+	font-size: 17px;
+	text-transform: uppercase;
+	line-height: 34px;
+	letter-spacing: 2px;
+	border-right: 1px solid #ccc;
+	height: 30vh;
+	padding: 5px;
+}
+
+.cert-content ul li {
+	list-style: decimal;
+	margin-left: 40px;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	font-size: 15px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 10px;
+	/* font-weight: ; */
 }
 
 footer {
