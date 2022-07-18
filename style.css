@@ -140,7 +140,7 @@
 .body3 {
 	min-height: 60vh;
 	margin-bottom: 0px;
-	background-color: #3d2919;
+	/* background-color: #3d2919; */
 }
 
 .body3 h1 {
@@ -151,18 +151,18 @@
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 20px;
-	color: #fff;
+	/* color: #fff; */
 }
 
 .boxing {
 	display: flex;
-	justify-content: space-evenly;
+	/* justify-content: space-evenly; */
 	gap: 20px;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 
 .services {
-	width: 290px;
+	/* width: 290px;
 	min-height: 200px;
 	margin-left: 10px;
 	border-radius: 5px;
@@ -170,18 +170,41 @@
 	padding: 10px;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 40px;
-}
-
-.services:hover {
-	box-shadow: 0 2px 8px #000;
+	margin-bottom: 40px; */
+	position: relative;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
 }
 
 .services h2 {
-	align-items: center;
-	text-transform: uppercase;
-	margin-top: 25%;
-	color: rgba(255, 255, 255, 0.782);
+	/* align-items: center; */
+	/* text-transform: uppercase; */
+	/* margin-top: 25%; */
+	/* color: rgba(255, 255, 255, 0.782); */
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: black;
+	color: white;
+	margin-bottom: 5px;
+	font-family: sans-serif;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	transition: visibility 0s, opacity 0.5s linear;
+}
+.services:hover {
+	/* box-shadow: 0 2px 8px #000; */
+	cursor: pointer;
+}
+
+.services:hover h2 {
+	width: 150px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: 0.7;
 }
 
 .clients {
