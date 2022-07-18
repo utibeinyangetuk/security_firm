@@ -46,12 +46,16 @@
 }
 
 .body1 {
-	height: 70vh;
+	min-height: 70vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
-	background: #fff;
+	background: url('/assets/favicon/favicon.ico');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 50% 100%;
+	background-position: center;
 }
 
 .body1 span {
@@ -64,17 +68,7 @@
 		0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020,
 		0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616,
 		0 14px 0 #141414, 0 15px 0 #121212;
-	color: #807668;
-}
-
-.body1 h1 {
-	margin-top: 10px;
-	letter-spacing: 3px;
-	font-size: 40px;
-	text-transform: uppercase;
-	color: transparent;
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+	color: #70675b;
 }
 
 .body2 {
@@ -325,7 +319,9 @@ footer h1 {
 	cursor: pointer;
 	margin-right: 20px;
 }
-
+.socials i:hover {
+	color: #fff;
+}
 .container {
 	display: flex;
 	flex-direction: column;
@@ -409,6 +405,7 @@ footer h1 {
 
 .copyright-text {
 	margin-top: 60px;
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 1.2px;
+	color: #fff;
 }
