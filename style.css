@@ -446,7 +446,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
-	background-color: teal;
+	background-color: #3d2919;
 }
 
 .logo img {
@@ -476,23 +476,32 @@ nav {
 	transition: 0.4s ease;
 }
 
+/* RESPONSIVENESS */
 @media screen and (max-width: 1024px) {
 	.nav-links {
 		width: 60%;
 	}
 }
 
+/* 0px-768px */
 @media screen and (max-width: 768px) {
 	body {
-		background-color: rgba(0, 128, 128, 0.21);
 		overflow-x: hidden;
+		scroll-behavior: smooth;
 	}
+	nav {
+		height: 5vh;
+		justify-content: space-between;
+		display: flex;
+		align-items: center;
+	}
+
 	.nav-links {
 		position: absolute;
 		right: 0;
 		height: 92vh;
 		top: 8vh;
-		background-color: teal;
+		background-color: #3d2919;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -503,10 +512,48 @@ nav {
 	.nav-links li {
 		opacity: 0;
 	}
+
 	.burger {
 		display: block;
 		cursor: pointer;
 	}
+
+	.home {
+		min-height: 55vh;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		background: url('/assets/logo/phonelogo.jpeg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+	}
+
+	.home h1 {
+		opacity: 0;
+	}
+	.body2 {
+		text-align: center;
+		background-color: #3d2919;
+		color: #fff;
+	}
+
+	.body2 h1 {
+		text-transform: uppercase;
+	}
+
+	.body2 p {
+		padding: 10px;
+		text-align: center;
+		color: #ffffff9f;
+	}
+	.about-us ,.mission{
+		border-bottom: 1px solid;
+		margin-bottom: 10px;
+	}
+
+
 }
 
 .nav-active {
