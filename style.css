@@ -337,9 +337,10 @@ footer h1 {
 	font-size: 35px;
 	cursor: pointer;
 	margin-right: 20px;
+	color: #fff;
 }
 .socials i:hover {
-	color: #fff;
+	color: blue;
 }
 .container {
 	display: flex;
