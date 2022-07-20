@@ -540,6 +540,8 @@ nav {
 	}
 
 	.body2 h1 {
+		padding: 5px;
+		background-color: #000;
 		text-transform: uppercase;
 	}
 
@@ -548,12 +550,6 @@ nav {
 		text-align: center;
 		color: #ffffff9f;
 	}
-	.about-us,
-	.mission {
-		border-bottom: 1px solid;
-		margin-bottom: 10px;
-	}
-
 	.body3 {
 		min-height: 50vh;
 		background-color: #fffafa;
@@ -563,7 +559,9 @@ nav {
 		text-align: center;
 		font-size: 22px;
 		margin-bottom: 20px;
-		text-decoration: underline;
+		background-color: #000;
+		color: #fff;
+		padding: 7px;
 	}
 	.service-container {
 		display: flex;
