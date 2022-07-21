@@ -1,4 +1,4 @@
-/* new styling */
+
 @import url(' https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap ');
 
 * {
@@ -414,6 +414,7 @@ footer {
 /* RESPONSIVENESS */
 @media all and (min-width: 1121px) and (max-width: 1395px) {
 	/* TODO:  STYLE THE SERVICES PART AND THE HOME AND ABOUT  */
+	/* TODO:  Also make changes to  normal view too  */
 
 	nav {
 		background-color: red;
