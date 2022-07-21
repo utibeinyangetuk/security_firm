@@ -1,4 +1,3 @@
-
 @import url(' https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap ');
 
 * {
@@ -286,7 +285,6 @@ nav {
 	font-size: 17px;
 	text-transform: capitalize;
 	font-weight: 600;
-	/* border: 1px solid; */
 }
 
 .certificates {
@@ -313,8 +311,6 @@ nav {
 }
 
 .certificates h2 {
-	/* background-color: #000; */
-	/* color: #fff;	 */
 	font-size: 35px;
 	font-weight: 900;
 }
@@ -783,7 +779,6 @@ footer {
 
 	.socials ul li {
 		font-size: 25px;
-		/* margin-bottom: 40px; */
 	}
 
 	.socials span {
