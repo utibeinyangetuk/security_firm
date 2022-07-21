@@ -409,11 +409,98 @@ footer {
 
 /* RESPONSIVENESS */
 @media all and (min-width: 1121px) and (max-width: 1395px) {
-	/* TODO:  STYLE THE SERVICES PART AND THE HOME AND ABOUT  */
-	/* TODO:  Also make changes to  normal view too  */
+	.home {
+		background-size: 80%;
+	}
 
-	nav {
-		background-color: red;
+	.home h1 {
+		font-size: 90px;
+	}
+
+	.home span {
+		letter-spacing: 2px;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.body2 {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.body2 h1 {
+		border-radius: 10px 10px 0 0;
+	}
+	.body2 p {
+		width: 100%;
+		line-height: 30px;
+	}
+
+	.about-us {
+		margin-bottom: 20px;
+		width: 54%;
+		border-radius: 5px;
+	}
+	.mission {
+		margin-bottom: 20px;
+		width: 45%;
+		border-radius: 5px;
+	}
+
+	.body3 h1 {
+		border-radius: 5px;
+		margin: 0 6px 0px 6px;
+		min-width: 60%;
+		text-transform: uppercase;
+		font-size: 30px;
+		margin-bottom: 10px;
+		background-color: #000;
+		color: #fff;
+	}
+
+	.services {
+		box-shadow: 0 2px 4px #121212;
+	}
+
+	.services h2 {
+		bottom: 0;
+	}
+
+	.services-2 h1 {
+		border-radius: 5px;
+		margin: 0 6px 0px 6px;
+		min-width: 60%;
+		text-transform: uppercase;
+		font-size: 30px;
+		margin-bottom: 10px;
+		background-color: #000;
+		color: #fff;
+	}
+
+	.offer-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.offer {
+		min-width: 49%;
+		min-height: 350px;
+		gap: 20px;
+	}
+
+	.socials ul {
+		display: block;
+	}
+	.socials ul li {
+		font-size: 30px;
+		font-weight: bold;
+		margin-left: 5%;
+	}
+
+	.socials ul li span {
+		font-style: normal;
+		font-size: 20px;
 	}
 }
 
