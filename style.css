@@ -412,14 +412,15 @@ footer {
 }
 
 /* RESPONSIVENESS */
-/* @media screen and (max-width: 1024px) {
-	.nav-links {
-		width: 60%;
-	}
-} */
+@media all and (min-width: 1121px) and (max-width: 1395px) {
+	/* TODO:  STYLE THE SERVICES PART AND THE HOME AND ABOUT  */
 
-/* 0px-768px */
-@media screen and (max-width: 768px) {
+	nav {
+		background-color: red;
+	}
+}
+
+@media all and (max-width: 1120px) {
 	body {
 		overflow-x: hidden;
 		scroll-behavior: smooth;
@@ -434,7 +435,7 @@ footer {
 
 	.logo img {
 		position: absolute;
-		top: -2.9%;
+		top: -4%;
 	}
 
 	.nav-links {
