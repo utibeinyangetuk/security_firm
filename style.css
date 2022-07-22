@@ -36,6 +36,10 @@ nav {
 	text-transform: capitalize;
 }
 
+.nav-links a:hover {
+	text-decoration: underline;
+}
+
 .burger {
 	display: none;
 }
@@ -366,6 +370,11 @@ footer {
 	margin-top: 20px;
 	margin-bottom: 25px;
 	color: rgba(255, 255, 255, 0.662);
+}
+
+.contact ul li a {
+	color: rgba(0, 255, 149, 0.529);
+	text-decoration: underline;
 }
 
 .quickLinks h2 {
@@ -854,6 +863,11 @@ footer {
 
 	.contact ul li i {
 		font-size: 25px;
+	}
+
+	.contact ul li a {
+		color: rgba(0, 255, 149, 0.529);
+		text-decoration: underline;
 	}
 
 	.quickLinks h2 {
