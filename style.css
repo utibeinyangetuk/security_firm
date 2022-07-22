@@ -413,7 +413,7 @@ footer {
 		background-size: 80%;
 	}
 
-	.nav-links  li:hover {
+	.nav-links li:hover {
 		text-decoration: underline;
 	}
 
@@ -527,7 +527,7 @@ footer {
 
 	.logo img {
 		position: absolute;
-		top: -4%;
+		top: -1%;
 	}
 
 	.nav-links {
