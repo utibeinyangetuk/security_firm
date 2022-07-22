@@ -413,6 +413,10 @@ footer {
 		background-size: 80%;
 	}
 
+	.nav-links  li:hover {
+		text-decoration: underline;
+	}
+
 	.home h1 {
 		font-size: 90px;
 	}
@@ -432,6 +436,7 @@ footer {
 	.body2 h1 {
 		border-radius: 10px 10px 0 0;
 	}
+
 	.body2 p {
 		width: 100%;
 		line-height: 30px;
@@ -442,6 +447,7 @@ footer {
 		width: 54%;
 		border-radius: 5px;
 	}
+
 	.mission {
 		margin-bottom: 20px;
 		width: 45%;
@@ -483,6 +489,7 @@ footer {
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
+
 	.offer {
 		min-width: 49%;
 		min-height: 350px;
@@ -492,6 +499,7 @@ footer {
 	.socials ul {
 		display: block;
 	}
+
 	.socials ul li {
 		font-size: 30px;
 		font-weight: bold;
