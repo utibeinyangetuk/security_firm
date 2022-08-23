@@ -12,18 +12,18 @@
 }
 
 nav {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.217);
-	background-color: #000;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.088);
+	background-color: #231f20;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 100%;
 	height: 12vh;
 }
 
 .logo img {
 	width: 100%;
-	height: 140px;
+	height: 200px;
 }
 .nav-links {
 	display: flex;
@@ -33,14 +33,14 @@ nav {
 .nav-links a {
 	color: #fff;
 	letter-spacing: 2px;
-	font-size: 14px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: bold;
 	text-transform: capitalize;
-	margin-left: 20px;
+	margin-right: 20px;
 	padding: 10px;
 }
 .nav-links a:hover {
-	color: peru;
+	color: #cf2e2e;
 }
 
 .burger {
@@ -59,7 +59,7 @@ nav {
 .home {
 	height: 88vh;
 	background-image: url('/assets/logo/logo2.png');
-	background-color: #000;
+	background-color: #231f20;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 50% 100%;
@@ -97,13 +97,13 @@ nav {
 	border-radius: 5px;
 	letter-spacing: 2px;
 	font-size: 25px;
-	border: 2px solid #fff;
+	border: 3px solid #fff;
+	font-weight: bold;
 	color: #fff;
 }
 
 .home a:hover {
 	background-color: #fdf5e5;
-	font-weight: bold;
 	color: #000;
 }
 
@@ -130,10 +130,11 @@ nav {
 }
 
 .sect {
-	color: burlywood;
+	color: #cf2e2e;
 	letter-spacing: 2px;
 	border: none;
-	font-weight: 900;
+	font-weight: bold;
+	text-transform: uppercase;
 	font-family: 'Rubik Dirt', cursive;
 }
 .content p {
@@ -184,7 +185,7 @@ strong {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #000;
+	background-color: #231f20;
 	height: 40vh;
 }
 .consultation h1 {
@@ -201,19 +202,75 @@ strong {
 	color: #fff;
 }
 .consultation a {
-	border: 1px solid;
+	border: 3px solid;
 	color: #fff;
 	border-radius: 5px;
 	padding: 10px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 25px;
+	font-weight: bold;
 }
 
 .consultation a:hover {
 	background-color: #fdf5e5;
-	border: none;
+	border: 3px solid #fdf5e5;
 	color: #000;
+}
+
+.services {
+	background-color: #fdf5e5;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+}
+
+.container1 {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.container1 h1 {
+	font-size: 35px;
+	border: 4px solid;
+	border-radius: 50px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	width: fit-content;
+	padding: 10px;
+}
+
+.container1 p {
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+.service-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.service-wrapper h2 {
+	border: 3px solid;
+	width: fit-content;
+	padding: 7px;
+	text-transform: capitalize;
+}
+.service-wrapper p {
+	margin-top: 10px;
+	line-height: 30px;
+	width: 680px;
+}
+span {
+	color: #000;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	font-family: 'Rubik Dirt', cursive;
 }
 
 /* //////////////////////////////////////////////////////////////////// */
