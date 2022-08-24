@@ -31,7 +31,7 @@ nav {
 }
 
 .nav-links a {
-	color: #fff;
+	color: #fdf5e5;
 	letter-spacing: 2px;
 	font-size: 20px;
 	font-weight: bold;
@@ -50,7 +50,7 @@ nav {
 .burger div {
 	width: 25px;
 	height: 4px;
-	background-color: #fff;
+	background-color: #fdf5e5;
 	border-radius: 10px;
 	margin: 5px;
 	transition: 0.4s ease;
@@ -78,7 +78,7 @@ nav {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	color: #fff;
+	color: #fdf5e5;
 	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.672), 0 1px 0, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
 		0 7px 0 #222, 0 8px 0 rgba(255, 255, 255, 0.226), 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616,
 		0 14px 0 #141414, 0 15px 0 #121212;
@@ -88,7 +88,7 @@ nav {
 	font-size: 25px;
 	letter-spacing: 2px;
 	margin-top: 10px;
-	color: #fff;
+	color: #fdf5e5;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .home a {
@@ -97,9 +97,9 @@ nav {
 	border-radius: 5px;
 	letter-spacing: 2px;
 	font-size: 25px;
-	border: 3px solid #fff;
+	border: 3px solid #fdf5e5;
 	font-weight: bold;
-	color: #fff;
+	color: #fdf5e5;
 }
 
 .home a:hover {
@@ -186,24 +186,24 @@ strong {
 	justify-content: center;
 	align-items: center;
 	background-color: #231f20;
-	height: 40vh;
+	height: 50vh;
 }
 .consultation h1 {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-size: 40px;
-	color: #fff;
+	color: #fdf5e5;
 	font-family: 'Rubik Dirt', cursive;
 }
 .consultation p {
 	padding: 10px;
 	letter-spacing: 2px;
 	font-size: 20px;
-	color: #fff;
+	color: #fdf5e5;
 }
 .consultation a {
 	border: 3px solid;
-	color: #fff;
+	color: #fdf5e5;
 	border-radius: 5px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -257,6 +257,7 @@ strong {
 
 .service-wrapper h2 {
 	border: 3px solid;
+	border-radius: 5px;
 	width: fit-content;
 	padding: 7px;
 	text-transform: capitalize;
@@ -271,6 +272,25 @@ span {
 	text-transform: capitalize;
 	letter-spacing: 2px;
 	font-family: 'Rubik Dirt', cursive;
+}
+
+.clients {
+	text-align: center;
+	border: 1px solid;
+	padding: 10px;
+	background-color: #231f20;
+}
+
+.clients h1 {
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-family: 'Rubik Dirt', cursive;
+	font-size: 40px;
+	color: #fdf5e5;
+}
+
+.clients ul li {
+	color: #fdf5e5;
 }
 
 /* //////////////////////////////////////////////////////////////////// */
