@@ -254,8 +254,24 @@ strong {
 	flex-wrap: wrap;
 	gap: 15px;
 }
-
+.service-wrapper {
+	display: flex;
+	align-items: center;
+}
 .service-wrapper h2 {
+	border: 5px solid;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 10px;
+}
+.service-wrapper img {
+	width: 200px;
+	height: 200px;
+	border: 6px solid;
+	border-radius: 50%;
+}
+
+/* .service-wrapper h2 {
 	border: 3px solid;
 	border-radius: 5px;
 	width: fit-content;
@@ -272,7 +288,7 @@ span {
 	text-transform: capitalize;
 	letter-spacing: 2px;
 	font-family: 'Rubik Dirt', cursive;
-}
+} */
 
 .clients {
 	text-align: center;
