@@ -494,7 +494,18 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media all and (min-width: 1121px) and (max-width: 1395px) {
+@media all and (min-width: 1025px) and (max-width: 1060px) {
+	.footer-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.products-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.certificates h1 {
+		font-size: 25px;
+	}
 }
 
 @media screen and (min-width: 511px) and (max-width: 1024px) {
@@ -540,7 +551,7 @@ footer {
 		width: 100%;
 		background-size: 100%;
 		padding: 15px;
-		text-align: left;
+		text-align: center;
 		border: 0;
 	}
 
@@ -554,7 +565,7 @@ footer {
 		width: 100%;
 	}
 	.home a {
-		width: 100%;
+		width: fit-content;
 		border: 3px solid;
 	}
 	.mission {
@@ -614,12 +625,13 @@ footer {
 		margin-left: 10px;
 	}
 	.consultation {
-		padding: 10px;
-		height: 380px;
+		padding: 40px;
+		height: 100%;
+		text-align: left;
 	}
 
 	.consultation h1 {
-		font-size: 30px;
+		font-size: 20px;
 		margin-top: -20px;
 		line-height: 40px;
 	}
@@ -690,6 +702,7 @@ footer {
 	}
 	.clients h1 {
 		text-align: left;
+		font-size: 26px;
 	}
 	.clients ul {
 		text-align: left;
@@ -753,6 +766,10 @@ footer {
 	.products-wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+	}
+	.products-wrapper .item {
+		width: 100%;
 	}
 	.footer-container {
 		display: flex;
