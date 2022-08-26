@@ -412,9 +412,8 @@ footer {
 
 .footer-container {
 	padding: 10px;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 15px;
+	display: flex;
+	justify-content: space-around;
 }
 .footer-container h2 {
 	text-transform: capitalize;
