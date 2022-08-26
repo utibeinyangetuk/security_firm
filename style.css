@@ -491,9 +491,8 @@ footer {
 	text-align: center;
 	letter-spacing: 2px;
 }
-/* //////////////////////////////////////////////////////////////////// */
 
-/* Responsive */
+/* MEDIA QUERIES */
 @media all and (min-width: 1121px) and (max-width: 1395px) {
 }
 
@@ -503,7 +502,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 510px) {
 	body {
 		overflow-x: hidden;
 	}
@@ -514,7 +513,6 @@ footer {
 		border: none;
 	}
 	.logo img {
-		/* width: 120px; */
 		opacity: 0;
 	}
 	.burger {
@@ -543,24 +541,25 @@ footer {
 	}
 
 	.home {
-		height: 55vh;
+		height: 100%;
+		width: 100%;
 		background-size: 100%;
+		border: 4px solid red;
+		padding: 15px;
+		text-align: left;
 	}
 
 	.home h1 {
 		animation: none;
-		font-size: 45px;
-		text-align: left;
-		margin-top: 0;
-		letter-spacing: 10px;
-		margin-left: 10px;
+		width: 100%;
+		font-size: 40px;
 	}
 	.home h2 {
-		text-align: left;
-		font-size: 20px;
+		font-size: 15px;
+		width: 100%;
 	}
 	.home a {
-		margin-left: -90px;
+		width: 100%;
 	}
 	.mission {
 		display: flex;
